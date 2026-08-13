@@ -1,0 +1,18 @@
+# Phase 1 only: ingestion + retrieval. No LLM, no API, no UI yet.
+pymupdf>=1.24
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+sqlalchemy>=2.0
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+tiktoken>=0.7
+rank-bm25>=0.2.2
+openai>=1.50
+langgraph>=0.2
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+streamlit>=1.36
+requests>=2.32
+pytest>=8.0

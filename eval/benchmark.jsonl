@@ -1,0 +1,12 @@
+{"id": "att_01", "question": "What is scaled dot-product attention?", "expected_verdict": "SUPPORTED", "gold_pages": [3, 4], "must_contain": ["dot product", "softmax"]}
+{"id": "att_02", "question": "How many attention heads did they use?", "expected_verdict": "SUPPORTED", "gold_pages": [4, 5], "must_contain": ["8"]}
+{"id": "att_03", "question": "What training data was used for English-German translation?", "expected_verdict": "SUPPORTED", "gold_pages": [7], "must_contain": ["WMT", "2014"]}
+{"id": "att_04", "question": "What hardware did they train on?", "expected_verdict": "SUPPORTED", "gold_pages": [7, 8], "must_contain": ["GPU"]}
+{"id": "att_05", "question": "What BLEU score did the big model achieve on WMT English-to-German?", "expected_verdict": "SUPPORTED", "gold_pages": [8, 9], "must_contain": ["BLEU"]}
+{"id": "att_06", "question": "What is multi-head attention?", "expected_verdict": "SUPPORTED", "gold_pages": [4, 5], "must_contain": ["heads"]}
+{"id": "att_07", "question": "Why did the authors avoid recurrent networks?", "expected_verdict": "SUPPORTED", "gold_pages": [1, 2, 6], "must_contain": []}
+{"id": "att_08", "question": "What positional encoding scheme did they use?", "expected_verdict": "SUPPORTED", "gold_pages": [5, 6], "must_contain": ["sinusoidal"]}
+{"id": "abs_01", "question": "Does this paper discuss image classification with convolutional networks?", "expected_verdict": "ABSTAIN", "gold_pages": [], "must_contain": []}
+{"id": "abs_02", "question": "What is the boiling point of water in Kelvin?", "expected_verdict": "ABSTAIN", "gold_pages": [], "must_contain": []}
+{"id": "abs_03", "question": "How many transformer layers were used to detect cancer in histopathology slides?", "expected_verdict": "ABSTAIN", "gold_pages": [], "must_contain": []}
+{"id": "abs_04", "question": "What is the population of France in 2024?", "expected_verdict": "ABSTAIN", "gold_pages": [], "must_contain": []}

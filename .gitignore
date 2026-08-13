@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/pdfs/*
+data/index/*
+!data/pdfs/.gitkeep
+!data/index/.gitkeep
+eval/results.jsonl
+# eval/report.md is intentionally NOT ignored — it's the portfolio artifact
+.pytest_cache/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
